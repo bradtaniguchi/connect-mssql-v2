@@ -11,7 +11,9 @@ RUN sudo apt-get update \
 # https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15#install
 # another good source worth looking into
 # https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-configure-mssql-conf?view=sql-server-ver15
-
+# 
+# Another issue, since nothing is working :(
+# https://github.com/gitpod-io/gitpod/issues/1272
 
 RUN sudo /opt/mssql/bin/mssql-conf setup
 
